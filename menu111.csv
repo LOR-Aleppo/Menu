@@ -1,0 +1,320 @@
+﻿Item Number,Item Name AR,Main Category,Price,Item Name,Description
+1,عصير برتقال,Fresh Juices,342 SYP,Orange juice,"Freshly squeezed, vibrant orange juice bursting with natural citrus flavor and Vitamin C."
+2,عصير اناناس,Fresh Juices,292 SYP,Pineapple juice,"A tropical and refreshing beverage made from ripe pineapples, offering a sweet and tangy flavor."
+3,عصير فریز,Fresh Juices,292 SYP,Strawberry juice,Refreshing and sweet juice made from ripe strawberries.
+4,عصير كيوي,Fresh Juices,292 SYP,Kiwi juice,"A refreshing, tangy juice made from fresh kiwis, packed with tropical flavor and vitamins."
+5,عصير ليمون,Fresh Juices,292 SYP,Lemon juice,Refreshing and zesty freshly squeezed lemon juice.
+6,عصير غريفون,Fresh Juices,292 SYP,Grapefruit juice,"A unique and refreshing local favorite, offering a crisp and revitalizing fruit flavor."
+7,عصير رمان,Fresh Juices,310 SYP,Pomegranate juice,Refreshing and tart freshly squeezed juice made from antioxidant-rich pomegranates.
+8,عصير دراق,Fresh Juices,292 SYP,Peach juice,"Sweet and velvety nectar made from sun-ripened peaches for a refreshing, summer-inspired treat."
+9,عصير مانغو,Fresh Juices,342 SYP,Mango juice,"Rich, velvety, and naturally sweet, made from perfectly ripened tropical mangoes."
+10,عصير بطيخ أحمر,Fresh Juices,292 SYP,Watermelon juice,"Refreshing and naturally sweet juice made from fresh, crisp watermelon."
+11,اسبريسو,Hot Drink,187 SYP,Espresso,"A rich, concentrated shot of pure coffee with a bold aroma and velvety crema."
+12,اسبريسو دبل,Hot Drink,207 SYP,Double espresso,A bold and intense double shot of rich espresso for a concentrated caffeine kick.
+13,اسبريسو مع نسلة,Hot Drink,212 SYP,Espresso with Nestlé milk,"Bold espresso softened with sweet, creamy Nestlé milk."
+14,ماكياتو,Hot Drink,202 SYP,Macchiato,Bold espresso topped with a delicate dollop of frothy milk foam.
+15,اسبريسو موكا,Hot Drink,222 SYP,Espresso mocha,Rich espresso combined with smooth chocolate and steamed milk for a decadent treat.
+16,اسبريسو افوكاتو,Hot Drink,232 SYP,Espresso avocado,Bold espresso poured over a scoop of creamy vanilla ice cream.
+17,كافيه لاتيه,Hot Drink,242 SYP,Caffè latte,Smooth espresso balanced with silky steamed milk and a light layer of foam.
+18,موكا لاتيه,Hot Drink,252 SYP,Mocha latte,"A creamy blend of rich espresso, steamed milk, and decadent chocolate."
+19,كرميل لاتيه,Hot Drink,272 SYP,Caramel latte,"Smooth espresso and steamed milk infused with rich, buttery caramel syrup."
+20,باونتي لاتيه,Hot Drink,267 SYP,Bounty latte,Creamy latte infused with tropical coconut and rich chocolate flavors.
+21,كابوتشينو,Hot Drink,277 SYP,Cappuccino,Rich espresso balanced with silky steamed milk and a thick layer of airy foam.
+22,موكاتشينو,Hot Drink,280 SYP,Mochaccino,"A rich blend of espresso, steamed milk, and chocolate topped with a light foam."
+23,هوت شوكليت,Hot Drink,280 SYP,Hot chocolate,"Rich, creamy cocoa served warm for a comforting and indulgent treat."
+24,جامايكان شوكليت,Hot Drink,277 SYP,Jamaican chocolate,"Rich, spiced cocoa with a hint of tropical warmth."
+25,وايت شوكليت,Hot Drink,280 SYP,White chocolate,"A smooth and creamy hot beverage made with rich cocoa butter and sweet milk for a velvety, comforting treat."
+26,نسكافيه بلاك,Hot Drink,185 SYP,Nescafe black,"A classic, bold, and invigorating cup of pure black coffee for a perfect caffeine kick."
+27,نسكافيه بلاك مع حليب,Hot Drink,242 SYP,Nescafe black with milk,Bold and intense dark-roasted coffee balanced with a splash of creamy milk for a smooth finish.
+28,نسكافيه دلغونا,Hot Drink,252 SYP,Nescafe Delagona,Creamy whipped coffee foam served over chilled or warm milk.
+29,3 بـ 1 ظرفين,Hot Drink,257 SYP,3 for 1 (2 sachets),"Creamy, instant 3-in-1 coffee served with two sachets for extra strength and flavor."
+30,شاي منكه,Hot Drink,185 SYP,Flavored tea,A selection of premium tea blends infused with aromatic fruit and herbal notes.
+31,اعشاب ساخنة,Hot Drink,185 SYP,Hot herbal teas,"A soothing selection of aromatic herbs, steeped to perfection for a relaxing and caffeine-free experience."
+32,قهوة شرقية,Hot Drink,185 SYP,Oriental coffee,"A rich, traditional brew with deep aromas and a smooth, bold finish."
+33,قهوة شرقية دبل,Hot Drink,207 SYP,Double oriental coffee,"A bold, rich double-shot of traditional oriental coffee with deep aromatic notes."
+34,3 ب 1 ظرف واحد,Hot Drink,220 SYP,3 for 1 (1 sachet),Convenient single-sachet instant coffee mix for a quick and classic pick-me-up.
+35,أمريكانو,Hot Drink,217 SYP,Americano,"A classic, bold espresso lengthened with hot water for a smooth, rich finish."
+36,سحلب شوكولا,Hot Drink,285 SYP,Chocolate sahlab,"Creamy, traditional orchid root pudding infused with rich chocolate for a warm, decadent treat."
+37,سحلب,Hot Drink,255 SYP,Sahlab,"A traditional, warm Middle Eastern milk pudding topped with cinnamon and nuts."
+38,اسبريسو دبل مع نسلة,Hot Drink,262 SYP,Double espresso with Nestlé milk,"Bold and intense double-shot espresso smoothed with creamy, sweet Nestlé milk."
+39,1 ب 2,Hot Drink,202 SYP,1 for 2,"A versatile hot beverage offering a unique balance of flavors, perfect for sharing or a custom coffee experience."
+40,1 ب 2 مع نسله,Hot Drink,222 SYP,1 for 2 with Nestlé milk,Smooth and creamy coffee blend enriched with sweet Nestlé milk.
+41,1 ب 3 مع نسلة,Hot Drink,300 SYP,1 for 3 with Nestlé milk,Creamy blend of rich coffee and sweet Nestlé milk.
+42,میلو,Hot Drink,250 SYP,Milo,"A nutritious and delicious chocolate malt beverage, served hot or cold for a classic energy boost."
+43,میلو حليب,Hot Drink,275 SYP,Milo milk,Creamy and comforting hot malt beverage blended with fresh milk.
+44,بيستاشو لاتيه,Hot Drink,282 SYP,Pistachio Latte,"Creamy espresso blended with steamed milk and rich, nutty pistachio flavor."
+45,سيفن هيفن لاتيه,Hot Drink,282 SYP,Seven Heaven Latte,"An exclusive, blissful coffee blend featuring notes of cantaloupe and brown sugar for a heavenly sip."
+46,اسبانيش لاتيه,Hot Drink,282 SYP,Spanish Latte,Creamy espresso-based drink perfectly balanced with steamed milk and sweetened condensed milk.
+47,هوت شوكليت كيك,Hot Drink,295 SYP,Hot Chocolate Cake,"Warm, decadent chocolate cake served in a mug for a rich, drinkable dessert experience."
+48,اسبريسو كومبانا,Hot Drink,212 SYP,Espresso Campana,Rich espresso topped with a dollop of velvety whipped cream.
+49,3 ب 1 مع حليب,Hot Drink,242 SYP,3-in-1 with Milk,"A convenient, smooth blend of coffee, creamer, and sugar topped with rich milk."
+50,1 ب 2 مع حليب,Hot Drink,232 SYP,1-in-2 with Milk,Smooth and creamy coffee blend with rich milk.
+51,سموزي حليب وموز,Nature Smoothies,347 SYP,Milk & Banana Smoothie,"Creamy blend of ripe bananas and chilled milk for a classic, naturally sweet refreshment."
+52,سموزي فریز,Nature Smoothies,355 SYP,Strawberry Smoothie,"Refreshing blend of ripe strawberries and chilled milk for a sweet, fruity treat."
+53,سموزي شوفان وعسل,Nature Smoothies,377 SYP,Oatmeal & Honey Smoothie,A wholesome blend of nutritious oats and sweet honey for a naturally energizing treat.
+54,سموزي فواكه استوائية,Nature Smoothies,377 SYP,Tropical Fruit Smoothie,A vibrant blend of exotic fruits for a refreshing tropical escape.
+55,سموزي فواكه صيفية,Nature Smoothies,377 SYP,Summer Fruit Smoothie,"Refreshing blend of seasonal fruits, chilled for a vibrant and sweet summer treat."
+56,سموزي دراق,Nature Smoothies,347 SYP,Peach Smoothie,"Refreshing blend of ripe, sweet peaches for a cool, fruity treat."
+57,سموزي اناناس,Nature Smoothies,347 SYP,Pineapple Smoothie,"A refreshing tropical blend of ripe pineapples, creamy and chilled to perfection."
+58,سموزي جبس,Nature Smoothies,347 SYP,Chips Smoothie,"Refreshing blend of blended chips and creamy base for a unique, savory-sweet treat."
+59,سموزي بطيخ,Nature Smoothies,347 SYP,Watermelon Smoothie,"Refreshing and ice-cold blend of fresh watermelon for a sweet, hydrating summer treat."
+60,سموزي حليب موز وشوكولا,Nature Smoothies,380 SYP,Banana & Chocolate Smoothie,"Creamy blend of ripe bananas and rich chocolate for a decadent, refreshing treat."
+61,ايس كريم شوكولا,Ice Cream,340 SYP,Chocolate Ice Cream,"Rich and creamy frozen treat made with premium cocoa for a deep, indulgent chocolate flavor."
+62,ايس كريم فريز,Ice Cream,340 SYP,Strawberry Ice Cream,"Creamy vanilla-infused treat swirled with fresh, sun-ripened strawberries for a sweet and refreshing classic."
+63,ايس كريم نكهات مختلفة,Ice Cream,340 SYP,Various Flavored Ice Cream,"A delightful variety of chilled, creamy treats available in a range of classic and seasonal flavors."
+64,ايس كريم كيندر,Ice Cream,347 SYP,Kinder Ice Cream,Creamy vanilla ice cream mixed with smooth Kinder chocolate pieces.
+65,ايس كريم غالاكسي,Ice Cream,347 SYP,Galaxy Ice Cream,Smooth and creamy ice cream infused with rich Galaxy chocolate for a decadent treat.
+66,ايس كريم كرانشي,Ice Cream,347 SYP,Crunchy Ice Cream,Creamy vanilla ice cream mixed with satisfyingly crisp chocolate bits and crunchy nuts.
+67,ايس كريم جامايكان,Ice Cream,340 SYP,Jamaican Ice Cream,Creamy tropical treat infused with island spices and exotic flavors.
+68,ايس كريم شوكولا مو,Ice Cream,357 SYP,Chocolate Moo Ice Cream,Rich and creamy chocolate ice cream topped with a velvety chocolate sauce.
+69,ايس كريم غفانيل,Ice Cream,342 SYP,Vanilla Ice Cream,Smooth and creamy classic vanilla bean ice cream.
+70,فودكا,Alcoholic Drinks,0 SYP,Vodka,"A clean, versatile, and high-quality spirit, perfect for sipping neat or as a foundation for your favorite cocktail."
+71,الجين,Alcoholic Drinks,0 SYP,Gin,"A classic, crisp spirit with botanical notes of juniper and herbs."
+72,الويسكي,Alcoholic Drinks,0 SYP,Whiskey,A bold and complex spirit with rich notes of oak and caramel.
+73,المارتيني,Alcoholic Drinks,0 SYP,Martini,"A sophisticated blend of gin or vodka and dry vermouth, served chilled with an olive or lemon twist."
+74,التيكيلا,Alcoholic Drinks,0 SYP,Tequila,"A classic Mexican spirit distilled from blue agave, offering smooth, earthy notes with a crisp finish."
+75,البيرة,Alcoholic Drinks,0 SYP,Beer,Refreshing and crisp brew with a smooth finish.
+76,النبيذ احمر ابيض الروزيه,Alcoholic Drinks,0 SYP,"Wine (Red, White, Rosé)","A curated selection of fine red, white, and rosé wines to perfectly complement your meal."
+77,الفودكا قناني كحول,Bottle of Alcohol,0 SYP,Vodka (Bottle),"A premium selection of chilled, distilled spirits served by the bottle for your table."
+78,الجين قناني كحول,Bottle of Alcohol,0 SYP,Gin (Bottle),"A full bottle of premium gin, perfect for sharing and crafting your own drinks."
+79,الرام اسود ذهبي ابيض ليتر,Bottle of Alcohol,0 SYP,"Rum (Black, Gold, White, Liter)","A selection of premium rums available in black, gold, or white, served by the liter."
+80,الويسكي ليتر,Bottle of Alcohol,0 SYP,Whiskey (Liter),"A full liter bottle of premium whiskey, ideal for sharing and enjoying neat or on the rocks."
+81,النبيذ احمر ابيض الروزيه ليتر,Bottle of Alcohol,0 SYP,"Wine (Red, White, Rosé) Liter","A selection of red, white, or rosé wine served in a full liter bottle."
+82,فرابيه شوكولا,Frabpe,0.355 SYP,Chocolate Frappe,"A chilled, blended coffee treat featuring rich chocolate and velvety whipped cream."
+83,قرابیه كرميل موكا,Frabpe,355 SYP,Caramel Mocha Frappe,"A chilled, blended coffee treat featuring rich chocolate and sweet caramel."
+84,فرابيه اوريو,Frabpe,355 SYP,Oreo Frappe,"A creamy, chilled blend of espresso and milk swirled with crunchy Oreo cookie crumbles."
+85,فرابيه فریز,Frabpe,355 SYP,Strawberry Frappe,"A refreshing blend of sweet strawberries and creamy ice, topped with whipped cream."
+86,فرابيه شيز كيك,Frabpe,370 SYP,Cheesecake Frappe,"Creamy blend of rich cheesecake flavors and coffee, topped with a hint of sweetness."
+87,فرابیه لوتوس,Frabpe,370 SYP,Lotus Frappe,Creamy blended coffee infused with caramelized Lotus Biscoff cookie flavor.
+88,فرابيه فستق,Frabpe,370 SYP,Pistachio Frappe,"A creamy, blended iced treat infused with rich roasted pistachio flavor."
+89,سلطة كيندر,Sweet Salads,360 SYP,Kinder Salad,"Sweet medley of fresh fruits drizzled with rich, melted Kinder chocolate."
+90,سلطة تويكس,Sweet Salads,360 SYP,Twix Salad,A decadent mix of fresh fruits and cream topped with crunchy Twix chocolate pieces and caramel drizzle.
+91,سلطة غالاكسي,Sweet Salads,360 SYP,Galaxy Salad,A decadent mix of fresh fruits topped with rich Galaxy chocolate shavings and a drizzle of silky chocolate sauce.
+92,سلطة كيت كات,Sweet Salads,360 SYP,Kit Kat Salad,A decadent mix of fresh fruits and crunchy Kit Kat pieces drizzled with rich chocolate syrup.
+93,سلطة سنيكرز,Sweet Salads,360 SYP,Snickers Salad,"A sweet, indulgent mix of chopped Snickers bars, crisp apples, and fluffy whipped cream."
+94,سلطة اوريو,Sweet Salads,360 SYP,Oreo Salad,"Creamy, chilled salad featuring crushed Oreo cookies and sweet whipped cream."
+95,سلطة براونيز,Sweet Salads,365 SYP,Brownies Salad,Decadent brownie chunks tossed with fresh fruits and a drizzle of rich chocolate syrup.
+96,سلطة فواكة,Sweet Salads,345 SYP,Fruit Salad,"A vibrant medley of fresh, seasonal fruits served chilled for a naturally sweet and refreshing treat."
+97,سلطة نوتيلا,Sweet Salads,345 SYP,Nutella Salad,A decadent mix of fresh fruits drizzled with rich Nutella and topped with a sprinkle of nuts.
+98,سيروب شوكولا,Syrups,0 SYP,Chocolate Syrup,"Rich, velvety chocolate drizzle perfect for enhancing any dessert or beverage."
+99,سيروب فریز,Syrups,0 SYP,Strawberry Syrup,"Sweet and vibrant syrup made from sun-ripened strawberries, perfect for adding a fruity burst to any drink or dessert."
+100,سيروب موز,Syrups,0 SYP,Banana Syrup,"Sweet and creamy syrup with the essence of ripe bananas, perfect for enhancing desserts and beverages."
+101,سيروب فواكة,Syrups,0 SYP,Fruit Syrup,"A sweet and vibrant blend of mixed fruit flavors, perfect for enhancing desserts and beverages."
+102,سيروب اوريو,Syrups,0 SYP,Oreo Syrup,Sweet and creamy syrup infused with the classic taste of crushed Oreo cookies.
+103,سيروب كيت كات,Syrups,0 SYP,Kit Kat Syrup,Sweet and crunchy chocolate syrup infused with the classic taste of Kit Kat bars.
+104,سيروب كيندر,Syrups,0 SYP,Kinder Syrup,Smooth and milky chocolate syrup with the signature flavor of Kinder.
+105,سيروب غالاكسي,Syrups,0 SYP,Galaxy Syrup,"A rich and creamy chocolate syrup with the signature smooth, silky taste of Galaxy chocolate."
+106,سيروب كريم الباتيسيير,Syrups,0 SYP,Patissier Cream Syrup,Rich and velvety syrup with the classic flavor of smooth pastry cream.
+107,الفوندون,Sweets,347 SYP,Fondone,"A decadent chocolate lava cake featuring a warm, molten center served with a side of creamy vanilla ice cream."
+108,براونيز,Sweets,362 SYP,Brownies,"Rich, fudgy chocolate squares with a crackly top, served warm and decadent."
+109,البانكيك,Sweets,382 SYP,Pancakes,"Fluffy, golden-brown stacks served with syrup and butter."
+110,الكيك والبوظة,Sweets,382 SYP,Cake and Ice Cream,"Warm sponge cake served with a cool, creamy scoop of vanilla ice cream."
+111,كريم الأوريو,Sweets,382 SYP,Oreo Cream,Rich and velvety cream infused with crunchy Oreo cookie pieces.
+112,كريم الكندر,Sweets,382 SYP,Kinder Cream,"Smooth and velvety cream infused with the rich, milky flavor of Kinder chocolate."
+113,الوافل,Sweets,312 SYP,Waffle,"Crispy on the outside and light on the inside, served golden-brown and perfect with your favorite toppings."
+114,وافل الشيز كيك,Sweets,382 SYP,Cheesecake Waffle,Crispy golden waffle topped with creamy cheesecake and a drizzle of sweet syrup.
+115,تيراميسو,Sweets,382 SYP,Tiramisu,"Classic Italian dessert with layers of coffee-soaked ladyfingers, rich mascarpone cream, and a dusting of cocoa."
+116,تشيز كيك,Sweets,382 SYP,Cheesecake,"Creamy, rich dessert with a buttery graham cracker crust and smooth cream cheese filling."
+117,كروسان لور,Sweets,442 SYP,Croissant Lore,"Flaky, buttery pastry filled with rich chocolate and topped with fresh fruits and cream."
+118,حلاوة بالبوظة,Sweets,342 SYP,Ice Cream Dessert,Creamy scoops of premium ice cream served with traditional sweet accents for a perfect finish.
+119,سويت لور,Sweets,382 SYP,Sweet Lore,A signature house dessert featuring a decadent blend of sweet flavors and premium ingredients.
+120,فخارة كيندر,Sweets,462 SYP,Kinder Clay Pot,"Warm Kinder chocolate and hazelnut cream served in a traditional clay pot for a rich, indulgent treat."
+121,دبل ديب بستاشيو,Sweets,442 SYP,Double Deep Pistachio,"Indulgent layers of rich pistachio cream and smooth cheesecake on a nutty crust, topped with crushed pistachios."
+122,شاكليت در شار,Sweets,372 SYP,Chocolate in a Sham,Indulgent chocolate served in a traditional Sham style for a unique sweet treat.
+123,ايس كوفي,Cold Drinks,290 SYP,Iced Coffee,"Chilled, bold espresso served over ice for a smooth and refreshing caffeine kick."
+124,ايس موكا,Cold Drinks,290 SYP,Iced Mocha,Chilled espresso blended with rich chocolate and cold milk for a refreshing pick-me-up.
+125,ایس كرميل لاتيه,Cold Drinks,310 SYP,Iced Caramel Latte,"Smooth espresso blended with chilled milk and sweet caramel, served over ice."
+126,ايس شوكولا,Cold Drinks,330 SYP,Iced Chocolate,"Rich, chilled cocoa blended with milk and served over ice for a cool, velvety treat."
+127,ايس كوفي شوكليت,Cold Drinks,342 SYP,Iced Chocolate Coffee,Chilled brew blended with rich chocolate for a smooth and decadent pick-me-up.
+128,ايس كوفي أوريو,Cold Drinks,362 SYP,Iced Oreo Coffee,Chilled coffee blended with crunchy Oreo crumbles and topped with creamy foam.
+129,موهيتو بدون كحول منكه,Cold Drinks,380 SYP,Non-Alcoholic Flavored Mojito,"Refreshing mint and lime blend with your choice of fruit flavor, served chilled without alcohol."
+130,بينا كولادا بدون كحول,Cold Drinks,380 SYP,Non-Alcoholic Piña Colada,"A refreshing tropical blend of creamy coconut and sweet pineapple, served chilled without alcohol."
+131,شاي مثلج طبيعي,Cold Drinks,292 SYP,Natural Iced Tea,"Refreshing and chilled tea brewed naturally for a crisp, clean taste."
+132,شراب الزنجبيل,Cold Drinks,337 SYP,Ginger Syrup,"A spicy and refreshing herbal syrup with a bold, warming ginger kick."
+133,سانسيت,Cold Drinks,292 SYP,Sunset,"A vibrant and refreshing mocktail featuring layers of citrus and fruit flavors, mimicking a beautiful summer sunset."
+134,بلو اوشن,Cold Drinks,292 SYP,Blue Ocean,"A refreshing, vibrant blue tropical drink with a cool citrus finish."
+135,ايس لاتيه بلو,Cold Drinks,330 SYP,Iced Blue Latte,A refreshing blend of chilled espresso and milk with a vibrant blue twist.
+136,سانسیت,Cold Drinks,335 SYP,Sunset,"A vibrant, layered blend of fruit juices and syrup, perfectly chilled for a refreshing, tropical taste."
+137,ميلك شيك شوكولا,Milkshakes,332 SYP,Chocolate Milkshake,Creamy and indulgent blend of rich chocolate and chilled milk.
+138,ميلك شيك فریز,Milkshakes,332 SYP,Strawberry Milkshake,Creamy and refreshing blend of fresh strawberries and chilled milk.
+139,ميلك شيك فانيل,Milkshakes,332 SYP,Vanilla Milkshake,Creamy and smooth blend of premium vanilla ice cream and chilled milk.
+140,ميلك شيز كيك,Milkshakes,362 SYP,Cheesecake Milkshake,"Creamy, indulgent shake blended with rich cheesecake flavors and a crumbly crust finish."
+141,ميلك شيك اوريو شيز كيك,Milkshakes,362 SYP,Oreo Cheesecake Milkshake,"Creamy blend of rich cheesecake and crunchy Oreo cookies, topped with whipped cream."
+142,ميلك شيك كوكيز,Milkshakes,362 SYP,Cookie Milkshake,Creamy vanilla blend mixed with crunchy cookie crumbles and topped with whipped cream.
+143,ميلك شيك موكا,Milkshakes,342 SYP,Mocha Milkshake,"Creamy blend of rich espresso and chocolate, topped with whipped cream."
+144,ميلك شيك اوريو,Milkshakes,342 SYP,Oreo Milkshake,Creamy vanilla blend mixed with crunchy Oreo cookie pieces.
+145,ميلك شيك بيستاشو,Milkshakes,362 SYP,Pistachio Milkshake,"Creamy milkshake blended with rich, toasted pistachio flavor."
+146,SEX ON THE BEACH,Alcoholic cocktail,465 SYP,SEX ON THE BEACH,"A vibrant, fruity cocktail blending vodka, peach schnapps, orange, and cranberry juice."
+147,COSMOPOLITIAN,Alcoholic cocktail,465 SYP,COSMOPOLITIAN,"A chic and refreshing cocktail featuring citrus vodka, orange liqueur, cranberry juice, and fresh lime."
+148,MARGARITA,Alcoholic cocktail,600 SYP,MARGARITA,"A classic, refreshing blend of tequila, orange liqueur, and fresh lime juice, served in a salt-rimmed glass."
+149,STRAWBERRY MARGARITA,Alcoholic cocktail,515 SYP,STRAWBERRY MARGARITA,"A refreshing blend of tequila, lime, and sweet strawberries, served chilled for a fruity twist."
+150,LONG ISLAND,Alcoholic cocktail,479 SYP,LONG ISLAND,A potent and refreshing blend of multiple spirits balanced with a splash of cola and citrus.
+151,ADIOS,Alcoholic cocktail,475 SYP,ADIOS,"A potent, electric blue cocktail featuring five spirits blended with sour mix and topped with refreshing lemon-lime soda."
+152,ICED TEA,Alcoholic cocktail,475 SYP,ICED TEA,Refreshing chilled tea served over ice with a hint of lemon.
+153,GOD FATHER,Alcoholic cocktail,475 SYP,GOD FATHER,"A classic, bold cocktail blending smooth Scotch whisky with sweet amaretto."
+154,GOD MOTHER,Alcoholic cocktail,405 SYP,GOD MOTHER,A smooth and potent cocktail featuring vodka and amaretto served over ice.
+155,RUSTY NAIL,Alcoholic cocktail,520 SYP,RUSTY NAIL,"A classic, sophisticated blend of Scotch whisky and Drambuie with a hint of honey and spice."
+156,SIDECAR,Alcoholic cocktail,505 SYP,SIDECAR,"A classic cocktail blending cognac, orange liqueur, and fresh lemon juice with a sugar-rimmed finish."
+157,BELINI,Alcoholic cocktail,415 SYP,BELINI,"A classic, refreshing cocktail made with sparkling wine and peach purée."
+158,MOJITO,Alcoholic cocktail,525 SYP,MOJITO,"Refreshing blend of muddled lime, fresh mint, sugar, and soda water."
+159,CUBA LIBRE,Alcoholic cocktail,462 SYP,CUBA LIBRE,"A classic Cuban blend of light rum and cola, brightened with a splash of fresh lime juice."
+160,MOSCOW MULE,Alcoholic cocktail,560 SYP,MOSCOW MULE,"A refreshing cocktail of vodka, spicy ginger beer, and lime juice, traditionally served in a copper mug."
+161,LONDON MULE,Alcoholic cocktail,585 SYP,LONDON MULE,"A gin-based twist on the classic, featuring spicy ginger beer and fresh lime."
+162,CHOCOLATE MARTINI,Alcoholic cocktail,425 SYP,CHOCOLATE MARTINI,"A decadent blend of rich chocolate liqueur and premium vodka, served chilled for a smooth, dessert-like finish."
+163,blue kamicaz,Alcoholic cocktail,475 SYP,blue Kamicaz,"Vibrant blue cocktail featuring vodka, blue curaçao, and lime for a bold, citrusy kick."
+164,B-52,Alcoholic Shot,342 SYP,B-52,"A classic layered shooter featuring coffee liqueur, Irish cream, and orange liqueur."
+165,B-53,Alcoholic Shot,342 SYP,B-53,"A powerful layered shot featuring coffee liqueur, Irish cream, and premium vodka."
+166,B-55,Alcoholic Shot,385 SYP,B-55,"A bold and powerful layered shot featuring coffee liqueur, Irish cream, and absinthe."
+167,BRAIN,Alcoholic Shot,332 SYP,BRAIN,"A striking layered shooter with peach schnapps, Irish cream, and grenadine."
+168,CLASSIC LADY,Alcoholic Shot,367 SYP,CLASSIC LADY,An elegant and refreshing alcoholic shot crafted for a sophisticated palate.
+169,AFTERSHOCK,Alcoholic Shot,380 SYP,AFTERSHOCK,A bold and electrifying spirit known for its intense cinnamon spice and unique hot-and-cool sensation.
+170,SHAMROCK,Alcoholic Shot,345 SYP,SHAMROCK,A vibrant green alcoholic shot featuring refreshing mint and creamy melon notes.
+171,TEQUILA GOLD,Alcoholic Shot,380 SYP,TEQUILA GOLD,"Smooth, premium gold tequila with a rich agave profile and subtle oak notes."
+172,DUDU,Alcoholic Shot,320 SYP,DUDU,"A classic, bold alcoholic shot with a sharp, spirited finish."
+173,LINER,Alcoholic Shot,380 SYP,LINER,"A bold and intense layered alcoholic shooter designed for a quick, high-impact kick."
+174,YAGER MASTER,Alcoholic Shot,402 SYP,YAGER MASTER,"A complex German herbal liqueur with a bold, bittersweet profile featuring notes of star anise and black licorice. Served ice-cold as a classic digestif or party shot."
+175,بيبسي,Soda and Beer,187 SYP,Pepsi,"A classic, refreshing cola with a crisp, bold taste and iconic fizz."
+176,سفن اب,Soda and Beer,187 SYP,7UP,"Crisp, refreshing lemon-lime soda with a clean, bubbly finish."
+177,میراندا,Soda and Beer,187 SYP,Mirandada,"Refreshing orange-flavored soda with a crisp, bubbly finish."
+178,ايس تي معلب,Soda and Beer,212 SYP,Canned Iced Tea,"Refreshing and chilled tea in a convenient can for a quick, cool pick-up."
+179,صودا,Soda and Beer,400 SYP,Soda,"Refreshing and bubbly carbonated water, perfect on its own or as a mixer."
+180,بيزيه,Soda and Beer,390 SYP,Bize,"Light and airy French meringue cookies with a sweet, delicate crunch."
+181,مشاريق الطاقة,Soda and Beer,510 SYP,Energy Projects,A selection of high-performance energy drinks designed to provide a quick boost of stamina and focus.
+182,تونيك,Soda and Beer,450 SYP,Tonic,"Crisp, bubbly, and refreshing mixer with a hint of quinine bitterness."
+183,بيرة توبورع,Soda and Beer,389 SYP,Tobor Beer,"A premium, full-bodied pilsner with a crisp finish and balanced hop aroma."
+184,بيزة المازة,Soda and Beer,416 SYP,Al-Maza Beer,"A premium Lebanese pilsner known for its clean, crisp taste and refreshing finish."
+185,بيرة كورونا,Soda and Beer,509 SYP,Corona Beer,"A world-famous Mexican pale lager known for its crisp, refreshing taste and light citrus notes, traditionally served with a lime wedge."
+186,بيرة مكسيكي,Soda and Beer,0 SYP,Mexican Beer,"Crisp, refreshing lager with a clean finish, perfect for pairing with spicy dishes."
+187,بيزة بيروت,Soda and Beer,412 SYP,Beirut Beer,"A premium Lebanese pilsner known for its crisp, refreshing taste and smooth malt finish."
+188,بيزة أفاميا,Soda and Beer,317 SYP,Afamia Beer,"A classic and crisp local Syrian lager with a refreshing, smooth finish."
+189,بابريكان,Soda and Beer,267 SYP,Paprika,"A unique, non-alcoholic malt beverage offering a refreshing and mildly spicy kick."
+190,كريب شوكولا,Crepes,352 SYP,Chocolate Crepe,"Warm, thin pancake filled and drizzled with rich, velvety melted chocolate."
+191,كريب كريم الباتيسر,Crepes,382 SYP,Pastry Cream Crepe,"A delicate crepe filled with smooth, velvety pastry cream for a classic sweet treat."
+192,كريب فریز,Crepes,382 SYP,Strawberry Crepe,Warm crepe filled with fresh strawberries and sweet syrup.
+193,كريب موز,Crepes,382 SYP,Banana Crepe,Warm crepe filled with fresh banana slices and a drizzle of sweet syrup.
+194,كريب فواكه,Crepes,382 SYP,Fruit Crepe,"A delicate, warm crepe filled with a fresh assortment of seasonal fruits and a drizzle of sweet syrup."
+195,كريب اوريو,Crepes,382 SYP,Oreo Crepe,"A warm, thin crepe filled with crushed Oreo cookies and creamy chocolate drizzle."
+196,كريب كيندر,Crepes,382 SYP,Kinder Crepe,Warm crepe filled with smooth Kinder chocolate for a rich and melty treat.
+197,كريب كيت كات,Crepes,382 SYP,Kit Kat Crepe,"Warm, thin crepe filled with crushed Kit Kat bars and drizzled with melted milk chocolate."
+198,كريب غالاكسي,Crepes,382 SYP,Galaxy Crepe,"Warm, thin crepe filled with rich, smooth Galaxy chocolate."
+199,كريب كنافة,Crepes,452 SYP,Knafeh Crepe,"A delicate crepe filled with sweet, crunchy knafeh and drizzled with sugar syrup."
+200,كريب سوشي,Crepes,382 SYP,Sushi Crepe,"Thinly sliced crepe rolls filled with sweet cream and topped with chocolate drizzle, served sushi-style."
+201,كريب فوتوتشيني,Crepes,382 SYP,Fettuccine Crepe,Thinly sliced crepe ribbons served with your choice of sweet toppings and syrups.
+202,كريب شوكولا دبي,Crepes,462 SYP,Dubai Chocolate Crepe,"Indulgent crepe filled with rich chocolate and a crunchy, pistachio-infused knafeh center."
+203,كاسة فودكا رمني سك,Alcoholic beverage,282 SYP,Rumni Vodka Glass,Smooth and bold premium Rumni vodka served neat in a chilled glass.
+204,كاسة فودكا موسكو سك,Alcoholic beverage,332 SYP,Moscow Vodka Glass,"A classic, crisp shot of premium Moscow vodka served neat."
+205,كاسة فودكا ابسلوت سك,Alcoholic beverage,380 SYP,Absolut Vodka Glass,"A premium, smooth shot of iconic Swedish vodka served neat in a chilled glass."
+206,كاسة فودكا ستولي سك,Alcoholic beverage,422 SYP,Stoli Vodka Glass,A premium pour of smooth Stolichnaya vodka served neat in a chilled glass.
+207,كاسة فودكا,Alcoholic beverage,332 SYP,Vodka Glass,"A classic serve of chilled, premium vodka."
+208,كاسة فودكا موسكو مع عصير,Alcoholic beverage,382 SYP,Glass Moscow Vodka with Juice,"Smooth Moscow vodka blended with refreshing fruit juice for a crisp, chilled cocktail."
+209,كاسة فودكا ابسلوت مع عصير,Alcoholic beverage,415 SYP,Absolut Vodka with Juice,Premium Absolut vodka blended with your choice of refreshing fruit juice.
+210,كاسة فودكا ستولي مع عصير,Alcoholic beverage,45 SYP,Stoli Vodka with Juice,Smooth Stolichnaya vodka paired with your choice of refreshing fruit juice.
+211,كاسة جين سك,Alcoholic beverage,327 SYP,Gin Squeeze,"A crisp and refreshing pour of premium gin, served neat for a clean, botanical finish."
+212,كاسة جين بیشتر سك,Alcoholic beverage,327 SYP,Bishter Squeeze,A refreshing and aromatic gin-based drink with a zesty citrus finish.
+213,كاسة جين بومباي سك,Alcoholic beverage,435 SYP,Bombay Squeeze,"A premium, crisp pour of Bombay Sapphire gin served neat for a refined and botanical experience."
+214,كاس ريسكي,Alcoholic beverage,0 SYP,Risky Glass,"A bold and potent cocktail served in a sleek glass, designed for the adventurous palate."
+215,كاسة نبيذ,Alcoholic beverage,535 SYP,Wine Glass,"A chilled glass of premium wine, perfect for pairing with your meal."
+216,سلطة سيزر,Salads,535 SYP,Caesar Salad,Crisp romaine lettuce and crunchy croutons tossed in creamy Caesar dressing with parmesan cheese.
+217,سلطة يونانية,Salads,460 SYP,Greek Salad,"Fresh vegetables, olives, and feta cheese with a classic Mediterranean dressing."
+218,سلطة باستا,Salads,440 SYP,Pasta Salad,"A refreshing blend of al dente pasta, crisp vegetables, and a zesty dressing."
+219,سلطة لور,Salads,585 SYP,Lor Salad,"Our signature house salad featuring a fresh, vibrant mix of premium seasonal greens and unique local toppings."
+220,بطاطا ودجز,Appetizers,0.315 SYP,Potato Wedges,"Crispy on the outside and fluffy on the inside, these seasoned potato wedges are the perfect savory snack or side."
+221,حلقات بصل,Appetizers,225 SYP,Onion Rings,"Crispy, golden-brown breaded onion rings served hot and crunchy."
+222,أصابع جبنة,Appetizers,515 SYP,Cheese Sticks,"Golden, breaded mozzarella sticks served warm with a side of marinara."
+223,توست ثوم,Appetizers,270 SYP,Garlic Toast,"Crispy, golden-brown bread slices infused with aromatic garlic butter and herbs."
+224,فتوش,Appetizers,470 SYP,Fattoush,"A vibrant Levantine bread salad with mixed greens, radishes, tomatoes, and crispy toasted pita in a zesty sumac vinaigrette."
+225,بوب كورن,Appetizers,635 SYP,Popcorn,"Light and airy kernels, perfectly popped and lightly seasoned for a classic, crunchy snack."
+226,تبولة,Appetizers,395 SYP,Tabbouleh,"A refreshing Levantine salad made of finely chopped parsley, tomatoes, mint, onion, and bulgur, seasoned with olive oil and lemon juice."
+227,برك جبنة,Appetizers,435 SYP,Cheese Borek,"Crispy, golden-brown pastry filled with savory melted cheese."
+228,بوتين,Appetizers,615 SYP,Putin,Crispy fries topped with squeaky cheese curds and smothered in rich brown gravy.
+229,باربيكيو تندر,Appetizers,460 SYP,Barbecue Tenders,Crispy chicken strips tossed in a tangy barbecue sauce.
+230,بوفالو تندر,Appetizers,460 SYP,Buffalo Tenders,"Crispy chicken strips tossed in a tangy, spicy buffalo sauce for a classic kick."
+231,صحن فريت,Appetizers,360 SYP,Fries Plate,"Crispy, golden-brown potato fries served hot and seasoned to perfection."
+232,ستيك بالعجين,Sandwiches,575 SYP,Steak in Batter,"Tender steak strips coated in a crispy, golden batter and fried to perfection."
+233,مكسيكانو بالعجين,Sandwiches,535 SYP,Mexicano in Batter,"Spicy Mexican-style chicken or beef with veggies, wrapped in a crispy golden batter."
+234,تشيكن بالعجين,Sandwiches,505 SYP,Chicken in Batter,"Crispy, golden-fried chicken coated in a light, seasoned batter."
+235,تشيكن مقلي,Sandwiches,815 SYP,Fried Chicken,"Crispy, golden-brown chicken seasoned to perfection for a satisfying crunch."
+236,طاووق بالعجين,Sandwiches,535 SYP,Tawook in Batter,Tender marinated chicken skewers wrapped in fresh dough and baked to perfection.
+237,كلوب صاندويش,Sandwiches,550 SYP,Club Sandwich,"Layers of toasted bread with chicken, turkey, fresh vegetables, and creamy mayonnaise."
+238,هارك برغر,Sandwiches,630 SYP,Hark Burger,"Juicy, flavorful beef patty served on a toasted bun with fresh toppings and our signature sauce."
+239,كاركيك برید ساندويش,Sandwiches,655 SYP,Carcake Bread Sandwich,Savory carcake layered in fresh bread for a unique and satisfying sandwich experience.
+240,فوتوشيني الفريدو,Pasta,665 SYP,Fettuccine Alfredo,Creamy pasta tossed in a rich parmesan and butter sauce.
+241,فوتوشيني كربونارا,Pasta,715 SYP,Fettuccine Carbonara,"Creamy pasta tossed with crispy bacon, Parmesan cheese, and a rich egg-based sauce."
+242,كريسبي باستا,Pasta,450 SYP,Crispy Pasta,"Golden, fried pasta with a satisfying crunch and savory seasoning."
+243,سباغيتي نابوليتان,Pasta,450 SYP,Spaghetti Neapolitan,"Classic pasta tossed in a rich, savory tomato sauce with aromatic herbs and garlic."
+244,سباغيتي بولونيز,Pasta,500 SYP,Spaghetti Bolognese,"Classic Italian pasta topped with a rich, savory meat and tomato ragu."
+245,بيري باستا,Pasta,410 SYP,Peri Pasta,Al dente pasta tossed in a creamy and fiery peri-peri sauce with a hint of citrus and garlic.
+246,باستا ماك اند تشيز,Pasta,410 SYP,Mac and Cheese Pasta,"Tender pasta shells smothered in a rich, creamy cheese sauce for the ultimate comfort classic."
+247,تشيكن رولز,Main Meals,915 SYP,Chicken Rolls,"Tender chicken breast rolled with savory fillings, breaded and fried to golden perfection."
+248,تشيكن كاجو,Main Meals,835 SYP,Chicken Cashew,Tender chicken stir-fried with crunchy cashews and fresh vegetables in a savory glaze.
+249,تشيكن كييف,Main Meals,955 SYP,Chicken Kiev,Crispy breaded chicken breast stuffed with herb-infused garlic butter.
+250,تشيكن روز ماري,Main Meals,815 SYP,Chicken Rosemary,Tender chicken breast seasoned with aromatic rosemary and grilled to perfection.
+251,شرحات دجاج مطفاية,Main Meals,815 SYP,Chicken Cutlets,"Tender, pan-seared chicken breast slices finished with a zesty lemon and garlic glaze."
+252,تشيكن بلونش,Main Meals,775 SYP,Chicken Blanch,Tender chicken breast sautéed in a creamy white sauce with mushrooms and fresh herbs.
+253,تشيكن سترا غانوف,Main Meals,815 SYP,Chicken Strawberry Ganoff,"Tender chicken strips and fresh strawberries in a rich, creamy sauce."
+254,كوردون بلو دجاج,Main Meals,915 SYP,Chicken Cordon Bleu,Crispy breaded chicken breast stuffed with savory ham and melted cheese.
+255,بيف سترا غانوف,Main Meals,1080 SYP,Beef Strawberry Ganoff,"Tender beef strips in a creamy mushroom sauce, served over a bed of fluffy rice or pasta."
+256,سكالوب لور,Main Meals,915 SYP,Scallopini,"Thinly sliced, tender meat lightly floured and sautéed in a savory butter and white wine sauce."
+257,فاهيتا,Main Meals,815 SYP,Fajita,Sizzling grilled meat and peppers served with warm tortillas and fresh toppings.
+258,مكسيكانو,Main Meals,815 SYP,Mexicano,"A savory mix of sautéed chicken, beef, and peppers served with warm tortillas and salsa."
+259,ستيك بوافر,Main Meals,1020 SYP,Steak Pouver,"Tender beef steak seared and served with a rich, cracked peppercorn sauce."
+260,كريسبي,Main Meals,835 SYP,Crispy,"Golden-brown, breaded chicken fillets fried to a perfect crunch and served with a savory dip."
+261,ستيك ماشروم,Main Meals,1020 SYP,Mushroom Steak,Tender grilled steak smothered in a rich and creamy mushroom gravy.
+262,وجبة شيش,Main Meals,825 SYP,Shish Meal,Tender marinated chicken skewers grilled to perfection and served with savory sides.
+263,وجبة كباب,Main Meals,925 SYP,Kebab Meal,Succulent grilled skewers of seasoned minced meat served with traditional accompaniments.
+264,بيتزا لور,Pizza,915 SYP,Pizza,A delicious classic topped with savory tomato sauce and melted cheese on a crisp crust.
+265,بيتزا خضار,Pizza,795 SYP,Vegetable Pizza,"A colorful medley of garden-fresh vegetables and melted cheese on a crisp, golden crust."
+266,بيتزا لحومات باردة,Pizza,975 SYP,Cold Meat Pizza,Savory pizza topped with a selection of premium cold cuts and melted cheese.
+267,بيتزا ماغريتا,Pizza,735 SYP,Maghrita Pizza,Classic tomato sauce and melted mozzarella on a crisp crust.
+268,بيتزا سجق,Pizza,795 SYP,Sausage Pizza,"Savory pizza topped with spicy sausage, melted cheese, and signature tomato sauce."
+269,بيتزا شامبنيون,Pizza,835 SYP,Champagne Pizza,"Savory pizza topped with fresh mushrooms, premium cheese, and a light, bubbly sauce for a sophisticated taste."
+270,بيتزا مدخن,Pizza,965 SYP,Smoked Pizza,"Topped with premium smoked meats and melted cheese for a bold, savory wood-fired flavor."
+271,بيتزا ببروني,Pizza,855 SYP,Pepperoni Pizza,"Classic Italian pizza topped with zesty, sliced pepperoni and melted mozzarella on a crispy crust."
+272,بيترا فيجي,Pizza,795 SYP,Veggie Pizza,A colorful medley of fresh garden vegetables and melted cheese on a crisp crust.
+273,بيترا,Pizza,580 SYP,Pizza,Classic hand-tossed dough topped with rich tomato sauce and melted mozzarella cheese.
+274,بيتزا فصول,Pizza,890 SYP,Seasons Pizza,"A flavorful pizza divided into four sections, each featuring a different seasonal topping for a variety of tastes."
+275,إضافة فطر اكسترا,Pizza,125 SYP,Extra Mushroom Addition,"Add a generous portion of savory, sliced mushrooms to any dish."
+276,بيتزا منقوشة,Pizza,0 SYP,Manakish Pizza,A flavorful fusion of traditional dough topped with authentic Middle Eastern spices and melted cheese.
+277,بيتزا فطر مع سجق,Pizza,823 SYP,Mushroom and Sausage Pizza,Savory pizza topped with earthy mushrooms and seasoned sausage on a bed of melted cheese and tomato sauce.
+278,فطور لور شخصين,Breakfast,555 SYP,Breakfast for Two,"A generous morning spread featuring a variety of traditional favorites, perfect for sharing."
+279,فطور لور,Breakfast,565 SYP,Breakfast,A hearty and traditional morning selection featuring a variety of fresh local flavors and essential breakfast staples.
+280,منقوشة جبنة,Breakfast,420 SYP,Cheese Manakish,"Warm, oven-baked flatbread topped with a generous layer of melted, savory cheese."
+281,منقوشة قشقوان,Breakfast,455 SYP,Kashkaval Manakish,"Warm flatbread topped with melted, savory Kashkaval cheese."
+282,منقوشة زعتر,Breakfast,365 SYP,Zaatar Manakish,"Traditional Lebanese flatbread topped with a savory blend of dried thyme, sesame seeds, and olive oil."
+283,منقوشة لبنة,Breakfast,385 SYP,Labneh Manakish,"Traditional flatbread topped with creamy, tangy labneh and a drizzle of olive oil."
+284,منقوشة فليفلة,Breakfast,365 SYP,Pepper Manakish,Traditional flatbread topped with a zesty and savory bell pepper spread.
+285,منقوشة جبنة وفليفلة,Breakfast,385 SYP,Cheese and Pepper Manakish,Warm flatbread topped with melted cheese and zesty peppers.
+286,منقوشة زيتون,Breakfast,385 SYP,Olive Manakish,Traditional flatbread topped with a savory blend of premium olives and aromatic herbs.
+287,منقوشة كردية,Breakfast,415 SYP,Kurdish Manakish,"A traditional Levantine flatbread topped with a savory blend of herbs, spices, and melted cheese, typical of Kurdish regional flavors."
+288,منقوشة حبش و قشقوان,Breakfast,465 SYP,Turkey and Kashkaval Manakish,"Warm flatbread topped with savory turkey slices and melted, creamy Kashkaval cheese."
+289,منقوشة قشقوان وسجق,Breakfast,465 SYP,Kashkaval and Sausage Manakish,Warm flatbread topped with melted kashkaval cheese and savory spiced sausage.
+290,أركيلة,Hookah,210 SYP,Shisha,Traditional flavored water pipe for a relaxing and aromatic smoking experience.
+291,تبديل راس,Hookah,130 SYP,Hookah Head Replacement,"A fresh bowl replacement for your shisha to ensure a clean, flavorful, and long-lasting smoke."
+292,تربيج اركيلة,Hookah,35 SYP,Shisha Tray,Essential tray for a clean and convenient shisha experience.
+293,صحن فستق,Services,165 SYP,Plate Pistachio,"A bowl of premium, crunchy pistachios, perfect for light snacking."
+294,صحن موالح مشكلة,Services,365 SYP,Mixed Savory Platter,"An assortment of premium nuts, seeds, and savory snacks, perfect for sharing."
+295,صحن شيبس,Services,202 SYP,Chips Platter,"Crispy, golden potato chips served in a shareable platter for a perfect salty snack."
+296,صحن خيار وجزر,Services,165 SYP,Cucumber and Carrot Platter,"Crisp cucumber and fresh carrot slices served as a healthy, refreshing snack."
+297,صحن أصابع مملحة,Services,207 SYP,Savory Finger Platter,"A crispy and salty assortment of finger foods, perfect for sharing."
+298,سبايسي,Services,810 SYP,Spicy,Bold and fiery seasoning or sauce to add an extra kick of heat to your meal.
+299,ماء كبيرة,Services,110 SYP,Large Water,"Refreshing and pure chilled bottled water, perfect for staying hydrated."
+300,ماء صغيرة,Services,65 SYP,Small Water,Refreshing chilled mineral water.
+301,ترانشات ليمون,Services,96 SYP,Lemon Slices,"Fresh, zesty citrus slices to complement any beverage."
+302,ليمون سك,Services,120 SYP,Lemon Squeezed,"Pure, undiluted lemon juice for a sharp and zesty citrus kick."
+303,صحن رز,Services,150 SYP,Rice Platter,"Fluffy, perfectly steamed grains of rice, served as a simple and versatile accompaniment to any main dish."
+304,خضار سوتيه,Services,110 SYP,Sautéed Vegetables,A colorful medley of seasonal vegetables lightly seasoned and tenderly sautéed.
+305,صوص,Services,115 SYP,Sauce,"A selection of delicious, complementary sauces to enhance your favorite dishes."
+306,عصير نص ليتر,Services,412 SYP,Half Liter Juice,"Refreshing half-liter of your choice of juice, perfectly chilled for sharing or extra thirst."
+307,عصير ليتر,Services,747 SYP,Liter Juice,"A refreshing one-liter bottle of our freshly squeezed, seasonal fruit juice."
+308,مشروب طاقة ريد بول,Services,514 SYP,Red Bull Energy Drink,"A classic energy drink to give you wings, perfect for a quick boost."
+309,مشروب طاقة XXL,Services,468 SYP,XXL Energy Drink,"A powerful, caffeine-packed energy drink designed to enhance focus, stamina, and performance."
+310,شوربة بصل,Services,450 SYP,Onion Soup,"A savory, slow-simmered broth featuring caramelized onions and topped with melted cheese and a toasted crouton."
+311,شورية فطر,Services,450 SYP,Mushroom Soup,"Creamy, earthy soup made with fresh mushrooms and aromatic herbs."
+312,كرواسان,Services,207 SYP,Croissant,"Buttery, flaky, and golden-brown pastry with a delicate, crisp texture."
+313,خدمة طعام,Services,80 SYP,Food Service,Professional and attentive service to ensure a seamless dining experience.
+314,غدا العيد 1,Services,2126 SYP,Eid Lunch 1,A festive feast featuring traditional holiday favorites and seasonal specialties.
+315,غدا العيد,Services,2126 SYP,Eid Lunch,A celebratory feast featuring traditional holiday favorites and seasonal specialties.
+316,تشيز اند وأين,Services,592 SYP,Cheese and Wine,A sophisticated pairing of artisanal cheeses served with a selection of fine wines.
+317,شوربة ذرة,Services,447 SYP,Corn Soup,"Creamy, comforting soup made with sweet golden corn and savory seasonings."
+318,خدمة مشروب,Services,0 SYP,Drink Service,Professional drink service including preparation and serving of your choice of beverages.
+319,خدمة,Services,0 SYP,Service,Professional and dedicated assistance to ensure a seamless and enjoyable dining experience.
