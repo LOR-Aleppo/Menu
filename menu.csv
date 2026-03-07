@@ -1,4 +1,4 @@
-﻿Main Category,Item Name,Item Name AR,Price,Description
+Main Category,Item Name,Item Name AR,Price,Description
 Appetizers,Potato Wedges,بطاطا ودجز,315 SYP,شرائح البطاطس السميكة المقرمشة المتبلة بمزيج من الأعشاب والتوابل المالحة. مثالي كوجبة جانبية أو وجبة خفيفة.
 Appetizers,Onion Rings,حلقات بصل,225 SYP,حلقات بصل طازج مقرمشة ومقلية ذهبية تقدم ساخنة ومقرمشة.
 Appetizers,Cheese Sticks,أصابع جبنة,515 SYP,"أعواد ذهبية مغطاة ببقسماط من جبن الموتزاريلا المذاب، تقدم دافئة ومرنة. مثالي للمشاركة."
@@ -196,10 +196,10 @@ Sandwiches,Kark Cake Bread Sandwich,كاركيك برید ساندويش,655 SYP
 Services,Pistachio Platter,صحن فستق,165 SYP,"مجموعة من الفستق المحمص الفاخر، المملح بشكل مثالي لوجبة خفيفة مقرمشة ومليئة بالنكهة."
 Services,Mixed Savory Platter,صحن موالح مشكلة,365 SYP,"مجموعة من الوجبات الخفيفة المقرمشة والمالحة والمكسرات المختلطة، مثالية للمشاركة."
 Services,Cucumber and Carrot Platter,صحن خيار وجزر,165 SYP,"تشكيلة منعشة من أعواد الخيار والجزر المقرمشة والباردة، تقدم طازجة."
-Services,Large Water,ماء كبيرة,110 SYP,زجاجة كبيرة ومنعشة من الماء المعدني المبرد.
-Services,Small Water,ماء صغيرة,65 SYP,زجاجة منعشة بسعة 330 مل من الماء المعدني المبرد.
 Services,Rice Platter,صحن رز,150 SYP,حصة من الأرز الأبيض المنفوش والمبهوى على البخار بشكل مثالي ليكمل أي طبق رئيسي.
 Services,Sautéed Vegetables,خضار سوتيه,110 SYP,خضروات موسمية طازجة مقلية برفق حتى تصبح مقرمشة وطرية.
+Services,Large Water,ماء كبيرة,110 SYP,زجاجة كبيرة ومنعشة من الماء المعدني المبرد.
+Services,Small Water,ماء صغيرة,65 SYP,زجاجة منعشة بسعة 330 مل من الماء المعدني المبرد.
 Smoothies,an orange,برتقال,0 SYP,مزيج منعش وبارد من البرتقال الطازج لتقديم نكهة حادة وحيوية.
 Smoothies,pineapple,اناناس,0 SYP,أناناس مخلوط منعش ليقدم حلوى استوائية وحلوة.
 Smoothies,Freeze,فریز,0 SYP,مزيج منعش من الفواكه المجمدة ليقدم حلوة باردة.
