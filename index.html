@@ -630,9 +630,9 @@
         }
 
         function clearCacheAndReload() {
-            // مسح البيانات المخزنة من الجهاز
             localStorage.removeItem('lor_menu_cache');
-            // إعادة تحميل الصفحة لجلب البيانات الجديدة
+            sessionStorage.clear();
+            localStorage.clear();
             window.location.reload();
         }
 
