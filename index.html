@@ -383,6 +383,10 @@
             <div class="mt-16 pt-8 border-t border-white/5 text-center text-[10px] opacity-30 uppercase tracking-[0.3em]">
                 &copy; 2026 L'OR Digital Menu | DotTech Solutions
             </div>
+            <button onclick="clearCacheAndReload()" class="text-[10px] opacity-40 hover:opacity-100 text-[var(--brand-gold)] border border-[var(--brand-gold)] rounded-full px-4 py-1.5 transition-all duration-300 uppercase tracking-widest flex items-center gap-2">
+        <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+        Refresh Menu
+    </button>
         </footer>
     </div>
 
@@ -427,6 +431,13 @@
                 navigator.serviceWorker.register('./sw.js').catch(err => console.error(err));
             });
         }
+
+function clearCacheAndReload() {
+    // مسح البيانات المخزنة من الجهاز
+    localStorage.removeItem('lor_menu_cache');
+    // إعادة تحميل الصفحة لجلب البيانات الجديدة
+    window.location.reload();
+}
 
         let fullMenu = [];
         let currentCategory = "";
