@@ -1,4 +1,4 @@
-Main Category,Item Name,Item Name AR,Price,Description
+﻿Main Category,Item Name,Item Name AR,Price,Description
 Appetizers,Potato Wedges,بطاطا ودجز,315 SYP,شرائح البطاطس السميكة المقرمشة المتبلة بمزيج من الأعشاب والتوابل المالحة. مثالي كوجبة جانبية أو وجبة خفيفة.
 Appetizers,Onion Rings,حلقات بصل,225 SYP,حلقات بصل طازج مقرمشة ومقلية ذهبية تقدم ساخنة ومقرمشة.
 Appetizers,Cheese Sticks,أصابع جبنة,515 SYP,"أعواد ذهبية مغطاة ببقسماط من جبن الموتزاريلا المذاب، تقدم دافئة ومرنة. مثالي للمشاركة."
@@ -139,8 +139,8 @@ Smoothies,Griffon Smoothy,غريفون,0 SYP,سموثي جريب فروت منع
 Smoothies,Pomegranate Smoothy,رمان,0 SYP,"مزيج منعش وحامض من رمان طازج، مبرد تماما ليمنح وجبة حيوية وصحية."
 Smoothies,Peach Smoothy,دراق,0 SYP,سموثي منعش وممزوج مصنوع من خوخ حلو وناضج.
 Smoothies,Mango Smoothy,مانغو,0 SYP,"مزيج منعش وكريمي من المانجو الناضج تحت الشمس، يقدم باردا لاستراحة استوائية حلوة."
-Smoothies,Watermelon  Smoothy,جبس,0 SYP,"سموثي البطيخ المنعش، بارد وحلو طبيعيا ليكون حلوى صيفية مثالية."
-Smoothies,Cantaloupe  Smoothy,بطيخ,0 SYP,مزيج منعش ومرطب من البطيخ الحلو والعصيري لتقديم حلوى صيفية باردة.
+Smoothies,Watermelon Smoothy,جبس,0 SYP,"سموثي البطيخ المنعش، بارد وحلو طبيعيا ليكون حلوى صيفية مثالية."
+Smoothies,Cantaloupe Smoothy,بطيخ,0 SYP,مزيج منعش ومرطب من البطيخ الحلو والعصيري لتقديم حلوى صيفية باردة.
 Fresh Juices,Orange,برتقال,342 SYP,عصير برتقال نقي طازج مفيض بنكهة الحمضيات الطبيعية وفيتامين سي.
 Fresh Juices,pineapple,اناناس,292 SYP,عصير منعش وحلو طبيعيا مصنوع من أناناس ناضج مشمس بأشعة الشمس.
 Fresh Juices,Freeze,فریز,292 SYP,مشروب منعش ومثلج مصنوع من الفواكه الطازجة لإضفاء نكهة باردة وحيوية.
