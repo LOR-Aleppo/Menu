@@ -638,7 +638,8 @@
 
         let fullMenu = [];
         let currentCategory = "";
-        const SHEET_URL = './menu.csv';
+        const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1t1Km-4NbbnPoFNCvjZcnxeYXjceN7NraPjqJNrYtO1E/gviz/tq?tqx=out:csv';
+        const LOCAL_FALLBACK_URL = './menu.csv';
 
         async function init() {
             const cachedData = localStorage.getItem('lor_menu_cache');
@@ -650,12 +651,22 @@
             }
 
             try {
-                const response = await fetch(SHEET_URL);
-                if (!response.ok) throw new Error('Network error');
+                let response;
+                try {
+                    response = await fetch(SHEET_URL);
+                    if (!response.ok) throw new Error('Google Sheets fetch error');
+                } catch (err) {
+                    console.warn('Failed to load Google Sheets, using local fallback...', err);
+                    response = await fetch(LOCAL_FALLBACK_URL);
+                    if (!response.ok) throw new Error('Network error');
+                }
                 const data = await response.text();
-                fullMenu = parseCSV(data);
-                localStorage.setItem('lor_menu_cache', JSON.stringify(fullMenu));
-                renderUI();
+                const parsed = parseCSV(data);
+                if (parsed && parsed.length > 0) {
+                    fullMenu = parsed;
+                    localStorage.setItem('lor_menu_cache', JSON.stringify(fullMenu));
+                    renderUI();
+                }
             } catch (error) {
                 if (fullMenu.length === 0) {
                     document.getElementById('menu-grid').innerHTML = `<p class='col-span-full text-center py-20 opacity-50 font-bold'>Offline. No cached data found.</p>`;
@@ -671,14 +682,46 @@
         }
 
         function parseCSV(text) {
-            const rows = text.split('\n').filter(r => r.trim());
-            const headers = rows[0].split(',').map(h => h.trim());
-            return rows.slice(1).map(row => {
-                const values = row.split(',').map(v => v.trim());
-                let obj = {};
-                headers.forEach((h, i) => obj[h] = values[i]);
+            const lines = text.split(/\r?\n/).filter(l => l.trim().length > 0);
+            if (lines.length === 0) return [];
+
+            const parseLine = (line) => {
+                const res = [];
+                let cur = '';
+                let inQuotes = false;
+                for (let i = 0; i < line.length; i++) {
+                    const c = line[i];
+                    if (c === '"') {
+                        if (inQuotes && line[i + 1] === '"') {
+                            cur += '"';
+                            i++;
+                        } else {
+                            inQuotes = !inQuotes;
+                        }
+                    } else if (c === ',' && !inQuotes) {
+                        res.push(cur.trim());
+                        cur = '';
+                    } else {
+                        cur += c;
+                    }
+                }
+                res.push(cur.trim());
+                return res;
+            };
+
+            const rawHeaders = parseLine(lines[0]);
+            const headers = rawHeaders.map(h => h.replace(/^["']|["']$/g, '').trim());
+
+            return lines.slice(1).map(line => {
+                const vals = parseLine(line);
+                const obj = {};
+                headers.forEach((h, i) => {
+                    let v = vals[i] !== undefined ? vals[i] : '';
+                    v = v.replace(/^["']|["']$/g, '').trim();
+                    obj[h] = v;
+                });
                 return obj;
-            });
+            }).filter(item => item['Item Name'] || item['Item Name AR']);
         }
 
         function groupByCategory(items) {
@@ -694,19 +737,43 @@
             const categories = Object.keys(groupByCategory(fullMenu));
             const bar = document.getElementById('category-bar');
             bar.innerHTML = categories.map(cat => `
-                <button onclick="switchCategory('${cat}')" id="btn-${cat}" class="cat-btn">
+                <button onclick="switchCategory('${cat}', true)" id="btn-${cat}" class="cat-btn">
                     ${cat}
                 </button>
             `).join('');
         }
 
-        function switchCategory(cat) {
+        function switchCategory(cat, shouldScroll = false) {
             currentCategory = cat;
             document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
             const activeBtn = document.getElementById(`btn-${cat}`);
-            if (activeBtn) activeBtn.classList.add('active');
+            if (activeBtn) {
+                activeBtn.classList.add('active');
+                const bar = document.getElementById('category-bar');
+                if (bar) {
+                    const scrollTarget = activeBtn.offsetLeft - (bar.clientWidth / 2) + (activeBtn.clientWidth / 2);
+                    bar.scrollTo({ left: scrollTarget, behavior: 'smooth' });
+                }
+            }
             const filtered = fullMenu.filter(item => item['Main Category'] === cat);
             renderMenu(filtered);
+            if (shouldScroll) {
+                requestAnimationFrame(() => {
+                    const firstCard = document.querySelector('#menu-grid .menu-card');
+                    if (firstCard) {
+                        const cardRect = firstCard.getBoundingClientRect();
+                        const targetY = window.pageYOffset + cardRect.top - 180;
+                        window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+                    } else {
+                        const nav = document.querySelector('.category-nav');
+                        if (nav) {
+                            const navRect = nav.getBoundingClientRect();
+                            const targetY = window.pageYOffset + navRect.top - 20;
+                            window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+                        }
+                    }
+                });
+            }
         }
 
         function toggleSearch(event) {
@@ -730,6 +797,13 @@
             renderMenu(results);
         }
 
+        const imageAliases = {
+            'Freeze Ice Cream': 'Freeze',
+            'Chocolate Ice Cream': 'Chocolate',
+            'Brownies Crepe': 'Brownies',
+            'Strawberry': 'Strawberries'
+        };
+
         function renderMenu(items) {
             const grid = document.getElementById('menu-grid');
             if (items.length === 0) {
@@ -737,7 +811,9 @@
                 return;
             }
             grid.innerHTML = items.map((item, index) => {
-                const imageName = item['Item Name'] ? item['Item Name'].trim().replace(/\s+/g, '_') : 'logo';
+                const rawName = item['Item Name'] ? item['Item Name'].trim() : '';
+                const baseName = imageAliases[rawName] || rawName.replace(/\s+/g, '_');
+                const imageName = baseName || 'logo';
                 const arabicName = item['Item Name AR'] || item['Arabic Name'] || 'صنف فاخر';
                 return `
                 <div class="menu-card fade-in" style="animation-delay: ${index * 0.08}s">
