@@ -623,53 +623,78 @@
 
         function dismissInstallBanner() { installBanner.classList.remove('show'); }
 
+        // Unregister any old Service Workers and purge caches
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js').catch(err => console.error(err));
+            navigator.serviceWorker.getRegistrations().then(registrations => {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
             });
         }
+        if ('caches' in window) {
+            caches.keys().then(names => {
+                for (let name of names) {
+                    caches.delete(name);
+                }
+            });
+        }
+        localStorage.removeItem('lor_menu_cache');
 
         function clearCacheAndReload() {
-            localStorage.removeItem('lor_menu_cache');
-            sessionStorage.clear();
             localStorage.clear();
-            window.location.reload();
+            sessionStorage.clear();
+            if ('caches' in window) {
+                caches.keys().then(keys => Promise.all(keys.map(k => caches.delete(k))))
+                      .finally(() => window.location.reload());
+            } else {
+                window.location.reload();
+            }
         }
 
         let fullMenu = [];
         let currentCategory = "";
         const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1t1Km-4NbbnPoFNCvjZcnxeYXjceN7NraPjqJNrYtO1E/gviz/tq?tqx=out:csv';
-        const LOCAL_FALLBACK_URL = './menu.csv';
 
         async function init() {
-            const cachedData = localStorage.getItem('lor_menu_cache');
-            if (cachedData) {
-                try {
-                    fullMenu = JSON.parse(cachedData);
-                    renderUI();
-                } catch (e) { localStorage.removeItem('lor_menu_cache'); }
+            const grid = document.getElementById('menu-grid');
+            if (grid && fullMenu.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full text-center py-24">
+                        <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-[var(--brand-gold)] border-t-transparent mb-4"></div>
+                        <p class="text-[var(--brand-green)] font-bold text-lg">جاري تحميل قائمة الطعام الحية...</p>
+                    </div>
+                `;
             }
 
             try {
-                let response;
-                try {
-                    response = await fetch(SHEET_URL);
-                    if (!response.ok) throw new Error('Google Sheets fetch error');
-                } catch (err) {
-                    console.warn('Failed to load Google Sheets, using local fallback...', err);
-                    response = await fetch(LOCAL_FALLBACK_URL);
-                    if (!response.ok) throw new Error('Network error');
-                }
+                // Fetch directly from Google Sheets with no-store and timestamp to bypass any caching
+                const freshUrl = `${SHEET_URL}&_t=${Date.now()}`;
+                const response = await fetch(freshUrl, { cache: 'no-store' });
+                if (!response.ok) throw new Error('Google Sheets fetch error');
+
                 const data = await response.text();
                 const parsed = parseCSV(data);
-                if (parsed && parsed.length > 0) {
-                    fullMenu = parsed;
-                    localStorage.setItem('lor_menu_cache', JSON.stringify(fullMenu));
-                    renderUI();
-                }
+                if (!parsed || parsed.length === 0) throw new Error('No items in menu');
+
+                fullMenu = parsed;
+                renderUI();
             } catch (error) {
-                if (fullMenu.length === 0) {
-                    document.getElementById('menu-grid').innerHTML = `<p class='col-span-full text-center py-20 opacity-50 font-bold'>Offline. No cached data found.</p>`;
+                console.error('Failed to load live menu:', error);
+                if (grid) {
+                    grid.innerHTML = `
+                        <div class="col-span-full text-center py-20 px-4">
+                            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-100 text-red-600 mb-4 shadow">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m0 0l-2.829-2.828m2.829 2.828L21 21M15.536 8.464a5 5 0 010 7.072m0 0l-2.829-2.829m-4.243 4.243a9 9 0 01-12.728 0m0 0l2.829-2.829m-2.829 2.829L3 21m2.828-15.536a9 9 0 0112.728 0M8.464 15.536a5 5 0 010-7.072m0 0L12 12" />
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-bold text-[var(--brand-green)] mb-2">لا يوجد اتصال بالإنترنت</h3>
+                            <p class="text-gray-600 mb-6 max-w-md mx-auto text-sm">يتطلب عرض قائمة الطعام اتصالاً فعالاً بالإنترنت لضمان الحصول على أحدث الأسعار والأصناف مباشرة.</p>
+                            <button onclick="init()" class="px-8 py-3 bg-[var(--brand-green)] text-[var(--brand-gold)] font-black text-sm rounded-full shadow hover:opacity-90 transition">
+                                إعادة المحاولة
+                            </button>
+                        </div>
+                    `;
                 }
             }
         }
